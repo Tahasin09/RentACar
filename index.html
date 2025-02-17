@@ -8,9 +8,12 @@
   </head>
   <body>
     <div class="bg-gray-200">
-      <div class="flex min-h-screen">
-        <div class="z-10 h-screen w-16 bg-white p-4 md:w-56">
-          <ul class="space-y-2">
+      <div class="flex h-screen overflow-auto">
+        <div class="h-screen w-16 bg-white px-4 md:w-56">
+          <h2 class="text-2xl font-semibold text-blue-500 py-10">CARENT</h2>
+
+          <ul class="space-y-2 mt-15">
+            <span class="text-gray-300 text-sm font-semibold p-4">Menu</span>
             <li
               class="flex items-center justify-center p-4 md:justify-start md:space-x-5"
             >
@@ -85,10 +88,11 @@
 
         <!-- start of main -->
         <!-- start of main header -->
-        <div class="flex-1 p-6">
-          <div class="mb-20 flex items-center justify-between">
+        <div class="flex-1 h-screen overflow-y-auto">
+          <div
+            class="mb-20 flex items-center justify-between bg-white py-10 px-20 border-b border-gray-300 z-10"
+          >
             <div class="flex gap-15">
-              <h2 class="text-2xl font-semibold text-blue-500">CARENT</h2>
               <div>
                 <input
                   type="text"
@@ -143,71 +147,78 @@
           <!-- Dashboard Content -->
           <div class="flex flex-col">
             <!-- Dashboard Content main image two part -->
-            <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 lg:mx-auto md:mx-auto">
-              <div class="rounded-lg bg-white p-5 shadow-lg w-[490px] h-[135px]">
+            <div
+              class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 lg:mx-auto md:mx-auto"
+            >
+              <div
+                class="rounded-lg bg-white p-5 shadow-lg w-[490px] h-[135px]"
+              >
                 <div class="flex items-center justify-start gap-3">
-                    <img src="./assets/dashboard_1/mark.svg" alt="">
-                    <h3 class=" text-xl font-semibold">Pick-Up</h3>
+                  <img src="./assets/dashboard_1/mark.svg" alt="" />
+                  <h3 class="text-xl font-semibold">Pick-Up</h3>
                 </div>
-                <div class="flex justify-between mt-4 ">
-                    <div class="border-r-1 border-gray-300 pr-4">
-                        <h4 class="mb-1 text-gray-600 font-medium">Locations</h4>
-                        <div class="flex items-center gap-2 text-xs text-gray-400">
-                            <span>Select your city</span>
-                            <img src="./assets/dashboard_1/arrow-down.svg" alt="">
-                        </div>
+                <div class="flex justify-between mt-4">
+                  <div class="border-r-1 border-gray-300 pr-4">
+                    <h4 class="mb-1 text-gray-600 font-medium">Locations</h4>
+                    <div class="flex items-center gap-2 text-xs text-gray-400">
+                      <span>Select your city</span>
+                      <img src="./assets/dashboard_1/arrow-down.svg" alt="" />
                     </div>
-                    <div class="border-r-1 border-gray-300 pr-4">
-                        <h4 class="text-gray-600 font-medium mb-1">Date</h4>
-                        <div class="flex items-center gap-2 text-xs text-gray-400">
-                            <span>Select your date</span>
-                            <img src="./assets/dashboard_1/arrow-down.svg" alt="">
-                        </div>
+                  </div>
+                  <div class="border-r-1 border-gray-300 pr-4">
+                    <h4 class="text-gray-600 font-medium mb-1">Date</h4>
+                    <div class="flex items-center gap-2 text-xs text-gray-400">
+                      <span>Select your date</span>
+                      <img src="./assets/dashboard_1/arrow-down.svg" alt="" />
                     </div>
-                    <div class="">
-                        <h4 class="text-gray-600 font-medium mb-1">Time</h4>
-                        <div class="flex items-center gap-2 text-xs text-gray-400">
-                            <span>Select your time</span>
-                            <img src="./assets/dashboard_1/arrow-down.svg" alt="">
-                        </div>
+                  </div>
+                  <div class="">
+                    <h4 class="text-gray-600 font-medium mb-1">Time</h4>
+                    <div class="flex items-center gap-2 text-xs text-gray-400">
+                      <span>Select your time</span>
+                      <img src="./assets/dashboard_1/arrow-down.svg" alt="" />
                     </div>
+                  </div>
                 </div>
-               
-                
               </div>
-              <div class="rounded-lg bg-white p-4 shadow-lg w-[490px] h-[135px]">
+              <div
+                class="rounded-lg bg-white p-4 shadow-lg w-[490px] h-[135px]"
+              >
                 <div class="flex items-center justify-start gap-3">
-                    <img src="./assets/dashboard_1/mark.svg" alt="">
-                    <h3 class=" text-xl font-semibold">Pick-Off</h3>
+                  <img src="./assets/dashboard_1/mark.svg" alt="" />
+                  <h3 class="text-xl font-semibold">Pick-Off</h3>
                 </div>
-                <div class="flex justify-between mt-4 ">
-                    <div class="border-r-1 border-gray-300 pr-4">
-                        <h4 class="mb-1 text-gray-600 font-medium">Locations</h4>
-                        <div class="flex items-center gap-2 text-xs text-gray-400">
-                            <span>Select your city</span>
-                            <img src="./assets/dashboard_1/arrow-down.svg" alt="">
-                        </div>
+                <div class="flex justify-between mt-4">
+                  <div class="border-r-1 border-gray-300 pr-4">
+                    <h4 class="mb-1 text-gray-600 font-medium">Locations</h4>
+                    <div class="flex items-center gap-2 text-xs text-gray-400">
+                      <span>Select your city</span>
+                      <img src="./assets/dashboard_1/arrow-down.svg" alt="" />
                     </div>
-                    <div class="border-r-1 border-gray-300 pr-4">
-                        <h4 class="text-gray-600 font-medium mb-1">Date</h4>
-                        <div class="flex items-center gap-2 text-xs text-gray-400">
-                            <span>Select your date</span>
-                            <img src="./assets/dashboard_1/arrow-down.svg" alt="">
-                        </div>
+                  </div>
+                  <div class="border-r-1 border-gray-300 pr-4">
+                    <h4 class="text-gray-600 font-medium mb-1">Date</h4>
+                    <div class="flex items-center gap-2 text-xs text-gray-400">
+                      <span>Select your date</span>
+                      <img src="./assets/dashboard_1/arrow-down.svg" alt="" />
                     </div>
-                    <div class="">
-                        <h4 class="text-gray-600 font-medium mb-1">Time</h4>
-                        <div class="flex items-center gap-2 text-xs text-gray-400">
-                            <span>Select your time</span>
-                            <img src="./assets/dashboard_1/arrow-down.svg" alt="">
-                        </div>
+                  </div>
+                  <div class="">
+                    <h4 class="text-gray-600 font-medium mb-1">Time</h4>
+                    <div class="flex items-center gap-2 text-xs text-gray-400">
+                      <span>Select your time</span>
+                      <img src="./assets/dashboard_1/arrow-down.svg" alt="" />
                     </div>
+                  </div>
                 </div>
               </div>
             </div>
 
             <!-- Dashboard Content car list-->
-            <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 lg:mx-auto md:mx-auto">
+            <div
+              class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 lg:mx-auto md:mx-auto"
+            >
+              <!-- Car-->
               <div
                 class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
               >
@@ -216,26 +227,35 @@
                     <h3 class="text-lg/ font-semibold">All New Rush</h3>
                     <span class="text-xs text-gray-400 font-semibold">SUV</span>
                   </div>
-                    <div >
-                        <img class="cursor-pointer"
-                        width="24"
-                        height="24"
-                        src="./assets/dashboard_1/heart.svg"
-                        alt="heart icon"
-                        />
-                </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
                 </div>
 
                 <div class="relative">
-                    <img src="./assets/dashboard_1/card_car1.svg" alt="" class="relative mb-8"/>
-                    <div class="absolute bottom-8">
-                        <img src="./assets/dashboard_1/shadow.svg" alt="" class=""/>
-                    </div>
+                  <img
+                    src="./assets/dashboard_1/card_car1.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
                 </div>
-                
-              
-              
-                <div class="flex items-center gap-3 justify-center text-xs mb-6">
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
                   <div class="flex items-center gap-1">
                     <img
                       width="24"
@@ -269,10 +289,14 @@
                     <span class="text-lg font-semibold">$120.00/</span>
                     <span class="text-gray-400 text-xs font-bold">day</span>
                   </div>
-                  <button class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600">Rent Now</button>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
                 </div>
               </div>
-
+              <!-- Car-->
               <div
                 class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
               >
@@ -281,26 +305,35 @@
                     <h3 class="text-lg/ font-semibold">All New Rush</h3>
                     <span class="text-xs text-gray-400 font-semibold">SUV</span>
                   </div>
-                    <div >
-                        <img class="cursor-pointer"
-                        width="24"
-                        height="24"
-                        src="./assets/dashboard_1/heart.svg"
-                        alt="heart icon"
-                        />
-                </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
                 </div>
 
                 <div class="relative">
-                    <img src="./assets/dashboard_1/car2.svg" alt="" class="relative mb-8"/>
-                    <div class="absolute bottom-8">
-                        <img src="./assets/dashboard_1/shadow.svg" alt="" class=""/>
-                    </div>
+                  <img
+                    src="./assets/dashboard_1/car2.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
                 </div>
-                
-              
-              
-                <div class="flex items-center gap-3 justify-center text-xs mb-6">
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
                   <div class="flex items-center gap-1">
                     <img
                       width="24"
@@ -334,9 +367,14 @@
                     <span class="text-lg font-semibold">$120.00/</span>
                     <span class="text-gray-400 text-xs font-bold">day</span>
                   </div>
-                  <button class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600">Rent Now</button>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
                 </div>
               </div>
+              <!-- Car-->
               <div
                 class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
               >
@@ -345,26 +383,35 @@
                     <h3 class="text-lg/ font-semibold">All New Rush</h3>
                     <span class="text-xs text-gray-400 font-semibold">SUV</span>
                   </div>
-                    <div >
-                        <img class="cursor-pointer"
-                        width="24"
-                        height="24"
-                        src="./assets/dashboard_1/heart.svg"
-                        alt="heart icon"
-                        />
-                </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
                 </div>
 
                 <div class="relative">
-                    <img src="./assets/dashboard_1/car3.svg" alt="" class="relative mb-8"/>
-                    <div class="absolute bottom-8">
-                        <img src="./assets/dashboard_1/shadow.svg" alt="" class=""/>
-                    </div>
+                  <img
+                    src="./assets/dashboard_1/car3.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
                 </div>
-                
-              
-              
-                <div class="flex items-center gap-3 justify-center text-xs mb-6">
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
                   <div class="flex items-center gap-1">
                     <img
                       width="24"
@@ -398,9 +445,14 @@
                     <span class="text-lg font-semibold">$120.00/</span>
                     <span class="text-gray-400 text-xs font-bold">day</span>
                   </div>
-                  <button class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600">Rent Now</button>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
                 </div>
               </div>
+              <!-- Car-->
               <div
                 class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
               >
@@ -409,26 +461,35 @@
                     <h3 class="text-lg/ font-semibold">All New Rush</h3>
                     <span class="text-xs text-gray-400 font-semibold">SUV</span>
                   </div>
-                    <div >
-                        <img class="cursor-pointer"
-                        width="24"
-                        height="24"
-                        src="./assets/dashboard_1/heart.svg"
-                        alt="heart icon"
-                        />
-                </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
                 </div>
 
                 <div class="relative">
-                    <img src="./assets/dashboard_1/car4.svg" alt="" class="relative mb-8"/>
-                    <div class="absolute bottom-8">
-                        <img src="./assets/dashboard_1/shadow.svg" alt="" class=""/>
-                    </div>
+                  <img
+                    src="./assets/dashboard_1/car4.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
                 </div>
-                
-              
-              
-                <div class="flex items-center gap-3 justify-center text-xs mb-6">
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
                   <div class="flex items-center gap-1">
                     <img
                       width="24"
@@ -462,9 +523,794 @@
                     <span class="text-lg font-semibold">$120.00/</span>
                     <span class="text-gray-400 text-xs font-bold">day</span>
                   </div>
-                  <button class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600">Rent Now</button>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
                 </div>
               </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/car4.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/car4.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/car4.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/car4.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/card_car1.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/card_car1.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/card_car1.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/card_car1.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/card_car1.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
+              <div
+                class="flex flex-col w-[320px] h-[380px] rounded-lg bg-white p-4 shadow-lg p-8"
+              >
+                <div class="flex items-start justify-between mb-10">
+                  <div class="">
+                    <h3 class="text-lg/ font-semibold">All New Rush</h3>
+                    <span class="text-xs text-gray-400 font-semibold">SUV</span>
+                  </div>
+                  <div>
+                    <img
+                      class="cursor-pointer"
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/heart.svg"
+                      alt="heart icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <img
+                    src="./assets/dashboard_1/card_car1.svg"
+                    alt=""
+                    class="relative mb-8"
+                  />
+                  <div class="absolute bottom-8">
+                    <img
+                      src="./assets/dashboard_1/shadow.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="flex items-center gap-3 justify-center text-xs mb-6"
+                >
+                  <div class="flex items-center gap-1">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/gas-station.svg"
+                      alt="gas-pump"
+                    />
+                    <span>90L</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/card_icon_2.svg"
+                      alt="gas-pump"
+                    />
+                    <span>Manual</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/dashboard_1/profile-2user.svg"
+                      alt="gas-pump"
+                    />
+                    <span>5 People</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between mt-4">
+                  <div>
+                    <span class="text-lg font-semibold">$120.00/</span>
+                    <span class="text-gray-400 text-xs font-bold">day</span>
+                  </div>
+                  <button
+                    class="bg-blue-500 text-sm font-medium px-6 py-2 text-white rounded-md cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-600"
+                  >
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+              <!-- Car-->
             </div>
           </div>
         </div>
